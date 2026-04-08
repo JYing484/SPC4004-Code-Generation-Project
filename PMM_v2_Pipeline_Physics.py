@@ -8,7 +8,6 @@ from sklearn.metrics import (balanced_accuracy_score, f1_score,
                              classification_report, confusion_matrix)
 from sklearn.pipeline import Pipeline
 from sklearn.utils import resample
-from imblearn.over_sampling import SMOTE 
 
 # 1. Load the dataset
 df = pd.read_csv('ai4i2020.csv')
